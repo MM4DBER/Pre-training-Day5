@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE) 
 ```
 
-Mixture Modeling for Discipline Based Education Researchers (MM4DBER) is an NSF funded training grant to support STEM Education scholars in integrating mixture modeling into their research.
+> Mixture Modeling for Discipline Based Education Researchers (MM4DBER) is an NSF funded training grant to support STEM Education scholars in integrating mixture modeling into their research.
 
 # --------------------------------------------------------------------------------------
 
@@ -67,7 +67,7 @@ ggplot(data = penguins, aes(x = flipper_length_mm, fill = species)) +
 
 ### Step 6: Read in data
 
-Table : *LSAY Variable Descriptions*.
+Table : *LSAY Variable Descriptions*
 
 ![](figures/lsay_variables.png)
 
@@ -91,8 +91,15 @@ names(data)
 head(data)
 ```
 
-### Step 7: Select Columns and Filter Rows
+### Step 7: Manipulating `data.frames` (select columns and filter rows)
 
+Look at a functions documentation: What does the `select()` function do?
+```{r, eval=FALSE}
+
+?select()
+```
+
+Selecting variables or columns of a `data.frame`
 ```{r}
 # Select columns one at a time
 data_attitudes <- data %>% 
