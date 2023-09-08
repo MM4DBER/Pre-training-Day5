@@ -89,6 +89,8 @@ names(data)
 
 # 4. head() prints the top 5 rows of the dataframe
 head(data)
+
+
 ```
 
 ### Step 7: Manipulating `data.frames` (select columns and filter rows)
@@ -98,6 +100,11 @@ Look at a functions documentation: What does the `select()` function do?
 
 ?select()
 ```
+
+**Three useful keyboard shortcuts**:
+1. Create a new code block: `Cmd + Option + I` (windows; `Ctrl + Alt + I`)
+2. Inside a code block (`<-`): `option + dash (-)` 
+3. Inside a code block (`%>%`): `Ctrl + Shift + M`
 
 Selecting variables or columns of a `data.frame`
 ```{r}
