@@ -93,7 +93,6 @@ head(data)
 
 ```
 
-### Step 7: Manipulating `data.frames` (select columns and filter rows)
 
 Look at a functions documentation: What does the `select()` function do?
 ```{r, eval=FALSE}
@@ -105,6 +104,10 @@ Look at a functions documentation: What does the `select()` function do?
 1. Create a new code block: `Cmd + Option + I` (windows; `Ctrl + Alt + I`)
 2. Inside a code block (`<-`): `option + dash (-)` 
 3. Inside a code block (`%>%`): `Ctrl + Shift + M`
+
+# --------------------------------------------------------------------------------------
+
+### Step 7: Manipulating `data.frames` (select columns and filter rows)
 
 Selecting variables or columns of a `data.frame`
 ```{r}
@@ -137,6 +140,7 @@ data_female <- data %>%
 data_female %>% nrow()
 ```
 
+# --------------------------------------------------------------------------------------
 
 ### Step 8: Descriptive Statistics
 
@@ -163,6 +167,11 @@ data %>%
   arrange(desc(prop))
 ```
 
+# --------------------------------------------------------------------------------------
+
+### Step 9: Knit document 
+
+At the top menu click the `Knit` option and choose `Knit to HTML` 
 
 # --------------------------------------------------------------------------------------
 

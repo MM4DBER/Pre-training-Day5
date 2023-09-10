@@ -129,7 +129,7 @@ logistic_fit <- mplusModeler(logistic,
 
 ### Optional exercise 
 
-We may not get to this in class. If so, it is **highly recommended** that you run through this code after class. 
+We may not get to this in class. If so, it is **recommended** that you run through this code after class. 
 
 # --------------------------------------------------------------------------------------
 
@@ -148,7 +148,7 @@ summ(lsay_fit          # print regression coefficients & model fit statistics
     )
 ```
 
-Converting from logit to probability (intercept=.591, coeff= -.267)
+Converting from logit to probability (intercept =.591, coefficient = -.267)
 ```{r}
 # Write a function called `logit2prob` to convert logits to probabilities
 logit2prob <- function(logit){
@@ -301,7 +301,7 @@ clean_data %>%
   theme_minimal()
 ```
 
-We can also use `cor()` to look at bivariate correlations for the entire data set (Note: Missing values are not allowed in correlation analyses, use `drop_na()` to do list.wise deletion):
+We can also use `cor()` to look at bivariate correlations for the entire data set:
 ```{r}
 
 # A colorful plot:
@@ -310,8 +310,8 @@ corrplot(f_cor,
          method="color",
          type = "upper")
 
-#Fun tip: `apa.cor.table()` creates an APA formated correlation matrix and saves it to your computer
-#apa.cor.table(physics, filename = "cor_table.doc")
+# Fun tip: `apa.cor.table()` creates an APA formated correlation matrix and saves it to your computer
+# E.g., apa.cor.table(physics, filename = "cor_table.doc")
 ```
 
 
