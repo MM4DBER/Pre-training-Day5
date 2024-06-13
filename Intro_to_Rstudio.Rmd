@@ -101,6 +101,7 @@ Look at a functions documentation: What does the `select()` function do?
 ```
 
 **Three useful keyboard shortcuts**:
+
 1. Create a new code block: `Cmd + Option + I` (windows; `Ctrl + Alt + I`)
 2. Inside a code block (`<-`): `option + dash (-)` 
 3. Inside a code block (`%>%`): `Ctrl + Shift + M`

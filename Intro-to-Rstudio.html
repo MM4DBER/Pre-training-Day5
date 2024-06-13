@@ -369,7 +369,7 @@ display: none;
 
 <h1 class="title toc-ignore">Introduction to R and RStudio</h1>
 <h4 class="author">MM4DBER Training Team</h4>
-<h4 class="date">Updated: September 11, 2023</h4>
+<h4 class="date">Updated: June 13, 2024</h4>
 
 </div>
 
@@ -415,7 +415,7 @@ for Data Science</em></a>.</li>
 <p>Open R studio on your desktop.</p>
 <p><strong>IMPORTANT</strong>: Because we are using a package that
 communicates with Mplus, we <em>must</em> use have Mplus installed to
-run Rstudio.</p>
+use the <code>MplusAutomation</code> package.</p>
 </div>
 </div>
 <div id="section-4" class="section level1">
@@ -471,9 +471,9 @@ are saved in the top project folder.</p></li>
 <div id="step-4-load-packages" class="section level3">
 <h3>Step 4: Load packages</h3>
 <ul>
-<li>The first code chunk (lines 8-10) is call the r setup code chunk.
-This will set the defaults for your document. For now we will leave this
-as is.</li>
+<li>The first code chunk (lines 8-10) is called the “r setup” code
+chunk. This will set the defaults for your document. For now we will
+leave this as is.</li>
 <li>The next code chunk in any given R-markdown should be the packages
 you will be using.</li>
 <li>To insert a code chunk, either use the keyboard shortcut
@@ -548,8 +548,8 @@ used in the code chunk above.</p>
 <h1>————————————————————————————–</h1>
 <div id="step-6-read-in-data" class="section level3">
 <h3>Step 6: Read in data</h3>
-<p>To demonstrate mixture modeling in the training program of the NSF
-grant we utilize the <em>Longitudinal Study of American Youth
+<p>We will use an ongoing example to demonstrate estimating models. The
+public-use sample is called the <em>Longitudinal Study of American Youth
 (LSAY)</em> data repository.</p>
 <p>Table 1:</p>
 <p><em>LSAY Variable Descriptions</em>.</p>
@@ -599,11 +599,15 @@ head(data)</code></pre>
 <p>Look at a functions documentation: What does the
 <code>select()</code> function do?</p>
 <pre class="r"><code>?select()</code></pre>
-<p><strong>Three useful keyboard shortcuts</strong>: 1. Create a new
-code block: <code>Cmd + Option + I</code> (windows;
-<code>Ctrl + Alt + I</code>) 2. Inside a code block
-(<code>&lt;-</code>): <code>option + dash (-)</code> 3. Inside a code
-block (<code>%&gt;%</code>): <code>Ctrl + Shift + M</code></p>
+<p><strong>Three useful keyboard shortcuts</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Create a new code block: <code>Cmd + Option + I</code> (windows;
+<code>Ctrl + Alt + I</code>)</li>
+<li>Inside a code block (<code>&lt;-</code>):
+<code>option + dash (-)</code></li>
+<li>Inside a code block (<code>%&gt;%</code>):
+<code>Ctrl + Shift + M</code></li>
+</ol>
 </div>
 <div id="section-11" class="section level1">
 <h1>————————————————————————————–</h1>
@@ -697,8 +701,8 @@ proportions:</p>
 </div>
 <div id="section-12" class="section level1">
 <h1>————————————————————————————–</h1>
-<div id="step-9-knit-document" class="section level3">
-<h3>Step 9: Knit document</h3>
+<div id="step-9-knit-document-optional" class="section level3">
+<h3>Step 9: Knit document (optional)</h3>
 <p>At the top menu click the <code>Knit</code> option and choose
 <code>Knit to HTML</code></p>
 </div>
